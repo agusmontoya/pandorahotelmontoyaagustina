@@ -1,0 +1,537 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+}
+
+header {
+  background-color: #ddb8a6;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 25px;
+}
+
+.logo {
+  text-indent: -99999px;
+  width: 65px;
+  height: 65px;
+  background: url(../images/logo.png);
+  background-size: 65px;
+  background-position: center left;
+  background-repeat: no-repeat;
+  display: block;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  gap: 30px;
+}
+
+.menu a {
+  color: #989e8b;
+  font-weight: bold;
+  font-family: dmserif;
+}
+
+.seccion-titulo {
+  margin: 30px 0;
+  text-align: center;
+  font-family: dmserif;
+  color: #7b876d;
+}
+
+
+main {
+  width: 100%;
+}
+
+.carrousel {
+  display: flex;
+  width: 100%;
+  height: 600px;
+}
+
+.carrousel img {
+  width: 100%;
+  object-fit: cover;
+}
+
+
+.propuestas {
+  width: 100%;
+}
+
+.propuestas-contenedor {
+  margin: auto;
+  max-width: 1440px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 60px 0;
+}
+
+.propuesta-item {
+  width: 300px;
+  overflow: hidden;
+  text-align: center;
+  height: 560px;
+  display: flex;
+  flex-direction: column;
+  border-radius: solid #989e8b;
+  background-color: #989e8b;
+  padding: 10px;
+  
+
+}
+
+.propuesta-item img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+}
+
+.propuesta-item a {
+  margin-top: 30px;
+  font-family: dmserif;
+  color: white;
+  background-color: #7b876d;
+  padding: 10px 0;
+  
+}
+
+
+.propuesta-detalle {
+  padding: 10px 0;
+  font-family: dmserif;
+}
+
+.texto {
+  font-family: seriftexto;
+  font-size: 15px;
+}
+
+.contenedor {
+  margin: auto;
+  max-width: 1440px;
+  display: flex;
+  justify-content: space-around;
+  gap: 60px 0;
+}
+
+.quienes-somos {
+  margin: 100px 0;
+}
+
+.quienes-somos h2{
+  text-align: center;
+  font-family: dmserif;
+  font-size: 25px;
+  color: #7b876d;
+}
+.quienes-somos p{
+  margin-right: 10px;
+  text-align: right;
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  font-family: seriftexto;
+  font-weight: bold;
+}
+
+.quienes-somos .contenedor {
+  margin: auto;
+  max-width: 1440px;
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.caracteristicas h2{
+  text-align: center;
+  font-family: dmserif;
+  font-size: 25px;
+  color: #7b876d;
+}
+
+.caracteristicas .contenedor {
+  flex-flow: row-reverse;
+  text-align: left;
+  font-size: 20px;
+  font-family: seriftexto;
+  font-weight: bold;
+}
+
+.caracteristicas img{
+  width: 300px;
+}
+
+
+.quienes-somos img {
+  width: 300px;
+  margin: 20px
+}
+.habitaciones {
+  margin: 150px 0;
+  background-image: url(../images/backgroundnosotros.png);
+  background-size: cover;
+  height: 400px;
+}
+
+.listas-habitaciones {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.listas-div {
+  background-color: #989e8b;
+  width: 500px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  padding: 50px;
+  font-size: 25px;
+  position: relative;
+  right: 25px;
+  top: -25px;
+}
+
+.listas-div h3 {
+  text-align: center;
+  font-family: dmserif;
+  font-size: 25px;
+}
+
+.listas {
+  display: flex;
+  font-family: seriftexto;
+  color: white;
+  gap: 30px;
+  justify-content: center;
+}
+
+.img-habitaciones {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.img-habitaciones img {
+  width: 400px;
+  
+}
+
+
+
+.servicioscontenedor{
+  margin: auto;
+  max-width: 1440px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-direction: row;
+  gap: 60px 0;
+}
+.serviciositem{
+  width: 400px;
+  height: 700px;
+  overflow: hidden;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  font-family: seriftexto;
+  font-weight: bold;
+  background-color: white;
+}
+
+.serviciosimg{
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  
+}
+
+
+.titulo-reservas{
+  margin: 30px 0;
+  text-align: center;
+  font-family: dmserif;
+  color: white;
+}
+.seccion-reservas{
+  background-image: url(../images/reserva.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  
+}
+.form-fiel{
+  margin: 0 auto;
+  padding: 10px;
+}
+.form-reservas {
+  margin: 0 auto;
+  width: 500px;
+  padding: 10px;
+  background-color: #ddb8a6;
+  border: solid 10px white;
+  border-radius: 10px;
+  font-family: seriftexto;
+  font-weight: bold;
+}
+
+.seccion-contacto{
+  background-image: url(../images/contactoimg1.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.titulocontacto{
+  margin: 30px 0;
+  text-align: center;
+  font-family: dmserif;
+  color: white;
+}
+.contenedor-form{
+  margin:0 auto;
+  background-color: #ddb8a6;
+  width: 300px;
+  height: 350px;
+  padding: 15px;
+  overflow: hidden;
+  border: solid white;
+  border-radius: 10px;
+  text-align: center;
+  font-family: seriftexto;
+  font-size: medium;
+  font-weight: bolder;
+}
+
+.botoncontacto{
+  width: 90px;
+  height: 35px;
+  color: #7b876d;
+  border-radius: 3px color #7b876d;
+  font-family: seriftexto;
+  color: black;
+
+}
+
+.grilla{
+  display: grid;
+  margin: auto;
+  max-width: 1440px;
+  justify-content: space-between;
+  grid-template-columns: 500px 850px;
+  grid-template-rows: 600px 500px 500px 500px;
+
+  
+}
+
+.formularioglamp{
+  background-color: rgb(219, 216, 216);
+  width: 450px;
+  margin: 10px;
+  margin-top: 40px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  font-family: seriftexto;
+}
+.carrousel-glamping{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carrousel-glamping img{
+  width: 800px;
+  height: 500px;
+}
+
+.serviciosglamp {
+  margin: auto;
+  max-width: 450px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 20px 0;
+}
+
+.serviciosglamp div {
+  width: 120px;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: bold;
+  font-size: smaller;
+  color:white;
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  background-color: #989e8b;
+  padding: 10px;
+  
+}
+
+
+
+.detalleglamping h3{
+  font-family: dmserif;
+  color: #7b876d;
+  font-size: 30px;
+  text-align: center;
+}
+.detalleglamping p{
+  font-family: seriftexto;
+  font-size: large;
+  font-weight: bold;
+  text-align: center;
+}
+
+.despensaglamping h3{
+  font-family: dmserif;
+  color: #7b876d;
+  font-size: 30px;
+  margin: 60px;
+}
+.despensaglamping p{
+  font-family: seriftexto;
+  font-weight: bold;
+  font-size: large;
+  text-align: center;
+  margin: 10px;
+}
+.comidaglamping{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.comidaglamping img{
+  width: 800px;
+  height: 500px;
+}
+
+
+footer {
+  margin: 100px 0;
+  padding: 100px;
+  background-color: #ddb8a6;
+}
+
+footer > div {
+  display: flex;
+  width: 100%;
+  gap: 150px;
+  justify-content: center;
+}
+
+.footer div ul {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+footer div h4 {
+  color: #989e8b;
+}
+footer > p {
+  margin-top: 50px;
+  font-family: seriftexto;
+  text-align: center;
+}
+
+@media screen and (min-width:320px) and (max-width:480px){
+  .headerindex{
+    width: 350px;
+  }
+  .headerindex nav ul{
+    flex-direction: column;
+    width: 100%;
+
+  }
+  .carrousel{
+    width: 350px;
+  }
+  .propuesta-item{
+    width: 170px;
+    height: 500px;
+  }
+
+  .footerindex{
+    width: 350px;
+  }
+
+
+  .headercontacto{
+  width: 350px;
+
+}
+.headercontacto nav ul{
+  flex-direction: column;
+  width: 100%;
+}
+.seccion-contacto{
+  width: 350px;
+  height: 600px;
+  background-image: url(../images/contactoimg1.png);
+  background-size: cover;
+}
+.footer{
+  width: 400px;
+}
+.divfooter{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+}
+
+@media screen and (min-width:768px) and (max-width:1024px){
+  .headerindex{
+    width: 680px;
+  }
+
+  .headercontacto{
+    width: 680px;
+  }
+
+  .titulocontacto{
+    color: #ddb8a6;
+  }
+  .seccion-contacto{
+    background-image: url(../images/contactoimg1.png);
+    background-position: center;
+    background-size: cover;
+    width: 680px;
+  }
+  .footer{
+    width: 680px;
+  }
+  .divfooter{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+}
+
+@font-face {
+  font-family: dmserif;
+  src: url(../fonts/DMSerifDisplay-Regular.ttf);
+}
+
+@font-face {
+  font-family: seriftexto;
+  src: url(../fonts/IBMPlexSerif-Light.ttf);
+}
