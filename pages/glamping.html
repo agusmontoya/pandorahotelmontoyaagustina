@@ -4,30 +4,37 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="../styles/styles.css">
+	<!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+	<link rel="stylesheet" href="../styles/styles-boot.css">
 	<title>Glamping</title>
 </head>
-<body>
-	<header>
-		<h1>
-			<a href="/index.html" class="logo">PANDORA HOTEL & RESORT</a>
-		  </h1>
-		  <nav class="menu">
-			<ul>
-				<li> <a href="../index.html">Inicio</a></li>
-				<li> <a href="../pages/nosotros.html">Nosotros</a></li>
-				<li> <a href="../pages/servicios.html">Servicios</a> </li>
-				<li> <a href="../pages/reservas.html">Reservas</a> </li>
-				<li> <a href="../pages/glamping.html">Glamping</a></li>
-				<li> <a href="../pages/contacto.html">Contacto</a></li>
-			</ul>
-		  </nav>
-	</header>
-	<section class="grilla">
-		<div class="formularioglamp">
-			<h4 class="seccion-titulo">Consultá por disponibilidad de glamping</h4>
-			<p class="texto">Completá el formulario y en breve te responderemos</p>
-			<form>
+<body class="container-fluid">
+	<section class="row">
+		<div class="col">
+			<header>
+			  <h1>
+				<a href="index.html" class="logo">PANDORA HOTEL & RESORT</a>
+			  </h1>
+			  <nav class="menu">
+				<ul>
+				  <li><a href="./index.html">Inicio</a></li>
+				  <li><a href="./pages/nosotros.html">Nosotros</a></li>
+				  <li><a href="./pages/servicios.html">Servicios</a></li>
+				  <li><a href="./pages/reservas.html">Reservas</a></li>
+				  <li><a href="./pages/glamping.html">Glamping</a></li>
+				  <li><a href="./pages/contacto.html">Contacto</a></li>
+				</ul>
+			  </nav>
+			</header>
+		  </div>
+	</section>
+	<br>
+	<section class="row">
+		<div class="col-lg-4">
+			<h4>Consultá por disponibilidad de glamping</h4>
+			<p>Completá el formulario y en breve te responderemos</p>
+			<form class="formularioglamp">
 				<br>
 				<label>Nombre</label>
 				<br>
@@ -56,104 +63,136 @@
 				<input type="submit" value="ENVIAR">
 			</form>
 		</div>
-		<div class="carrousel-glamping">
-			<img src="../images/glamping1.png">
+		
+		<div class="col-lg-8">
+			<div id="carrouselglamp" class="carousel slide" data-bs-ride="carousel">
+				<div class="carrousel-indicadores">
+				  <div class="carousel-item active">
+					<img src="../images/glamping1.png" class="d-block w-100" alt="...">
+				  </div>
+				  <div class="carousel-item">
+					<img src="../images/glamping2.png" class="d-block w-100" alt="...">
+				  </div>
+				  <div class="carousel-item">
+					<img src="../images/glamping3.png" class="d-block w-100" alt="...">
+				  </div>
+				</div>
+				<button class="carousel-control-prev" type="button" data-bs-target="#carrouselglamp" data-bs-slide="prev">
+				  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				  <span class="visually-hidden">Previous</span>
+				</button>
+				<button class="carousel-control-next" type="button" data-bs-target="#carrouselglamp" data-bs-slide="next">
+				  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+				  <span class="visually-hidden">Next</span>
+				</button>
+			  </div>
 		</div>
-		<div>
-			<h3 class="seccion-titulo">Servicios dentro del glamping</h3>
-			<div class="serviciosglamp">
-			<div class="texto">Aire acondicionado</div>
-			<div class="texto">Calefacción</div>
-			<div class="texto">Desayuno</div>
-			<div class="texto">Wi-Fi</div>
-			<div class="texto">Jacuzzi</div>
-			<div class="texto">Hidromasajes</div>
-			<div class="texto">Masajes</div>
-			<div class="texto">Reiki</div>
-			<div class="texto">Bar</div>
-			<div class="texto">Baño privado</div>
-			<div class="texto">Espacios comunes</div>
-			<div class="texto">Lavandería</div>
-			</div>
-			
+	</section>
+	<section class="row">
+		<div class="col-sm-6 col-lg-4 botones">
+			<h3>Servicios dentro del glamping</h3>
+			<div><button type="button" class="btn btn-outline-secondary">Aire acondicionado</button></div>
+			<div><button type="button" class="btn btn-outline-secondary">Wi-Fi</button></div>
+			<div><button type="button" class="btn btn-outline-secondary">Calefacción</button></div>
+			<div><button type="button" class="btn btn-outline-secondary">Desayuno</button></div>
+			<div><button type="button" class="btn btn-outline-secondary">Jacuzzi</button></div>
+			<div><button type="button" class="btn btn-outline-secondary">Hidromasajes</button></div>
+			<div><button type="button" class="btn btn-outline-secondary">Masajes</button></div>
+			<div><button type="button" class="btn btn-outline-secondary">Reiki</button></div>
+			<div><button type="button" class="btn btn-outline-secondary">Bar</button></div>
+			<div><button type="button" class="btn btn-outline-secondary">Baño privado</button></div>
+			<div><button type="button" class="btn btn-outline-secondary">Espacios comunes</button></div>
+			<div><button type="button" class="btn btn-outline-secondary">Lavandería</button></div>
+
 		</div>
-		<div class="detalleglamping">
+		<div class="col-sm-6 col-lg-8 divtexto">
 			<h3>Viví la experiencia de nuestros GALMPING'S</h3>
 			<br>
 			<p>Además de los servicios que brinda Pandora Hotel & Resort, nuestros huéspedes tienen la opción de combinar su estadía con una noche en alguno de nuestros increíbles domos. Contamos con tres domos con capacidad para tres personas, equipados con todo lo necesario para mejorar tu estadía, ideales para una noche en pareja o con amigos. 
 			Dentro de los servicios que ofrecemos, encontrarás caminatas nocturnas, fogones, clases de yoga, jacuzzi al aire libre y muchas opciones más para que puedas conectar con la paz de la naturaleza.
 		</p>
 		</div>
-		<div class="despensaglamping">
-			<h3>DESPENSA Y CERVECERÍA</h3>
-			<p>Dentro de nuestro espacio de domos, encontrarás una despensa abierta los fines de semana y feriados de 8 a 23hs con artículos necesarios para los campistas.
-				También una cervecería que cuenta con comidas rápidas como picadas, hamburguesas, empanadas y pizzas. Los domingos, podrás deleitarte con una carne al asador y variedad de postres.
-			</p>
+	</section>
+	<section class="row">
+		<div class="col-lg-6">
+			<div class="divdespensa">
+				<h3>DESPENSA Y CERVECERÍA</h3>
+				<p>Dentro de nuestro espacio de domos, encontrarás una despensa abierta los fines de semana y feriados de 8 a 23hs con artículos necesarios para los campistas.
+					También una cervecería que cuenta con comidas rápidas como picadas, hamburguesas, empanadas y pizzas. Los domingos, podrás deleitarte con una carne al asador y variedad de postres.
+				</p>
+			</div>
 		</div>
-		<div class="comidaglamping">
+		<div class="col-lg-6">
 			<img src="../images/glampingcomida1.png" alt="">
 		</div>
 	</section>
-	<footer class="footer">
-		<div>
-		  <div>
-			<h4 class="titulos">Ubicación</h4>
-			<p class="texto">
-			  <img src="../images/ubii.png" width="16px" height="16px" />Calle
-			  n°1234, Buenos Aires, Argentina
-			</p>
-		  </div>
-		  <div>
-			<h4 class="titulos">Contacto</h4>
-			<ul class="texto">
-			  <li>
-				<img
-				  src="../images/email.png"
-				  width="16px"
-				  height="16px"
-				/>pandorah@gmail.com
-			  </li>
-			  <li>
-				<img src="../images/tel.png" width="16px" height="16px" />(011)
-				4467 - 2245
-			  </li>
-			</ul>
-		  </div>
-		  <div>
-			<h4 class="titulos">Encontranos</h4>
-			<ul class="texto">
-			  <li>
-				<img
-				  src="../images/tw.png"
-				  width="16px"
-				  height="16px"
-				/>@pandorahotelok
-			  </li>
-			  <li>
-				<img
-				  src="../images/insta.png"
-				  width="16px"
-				  height="16px"
-				/>pandorahotelok
-			  </li>
-			  <li>
-				<img src="../images/fb.png" width="16px" height="16px" />Pandora
-				Hotel & Resort
-			  </li>
-			</ul>
-		  </div>
-		  <div>
-			<h4 class="titulos">Medios de pago</h4>
-			<img src="../images/mp.png" width="30px" height="30px" />
-			<img src="../images/amex.png" width="30px" height="30px" />
-			<img src="../images/mc.png" width="30px" height="30px" />
-			<img src="../images/visa.png" width="30px" height="30px" />
-			<img src="../images/rp.png" width="30px" height="30px" />
-			<img src="../images/pf.png" width="30px" height="30px" />
-			<img src="../images/ts.png" width="30px" height="30px" />
-		  </div>
+	<section class="row">
+		<div class="col">
+			<footer class="footer">
+				<div>
+				  <div>
+					<h4 class="titulos">Ubicación</h4>
+					<p class="texto">
+					  <img src="../images/ubii.png" width="16px" height="16px" />Calle
+					  n°1234, Buenos Aires, Argentina
+					</p>
+				  </div>
+				  <div>
+					<h4 class="titulos">Contacto</h4>
+					<ul class="texto">
+					  <li>
+						<img
+						  src="../images/email.png"
+						  width="16px"
+						  height="16px"
+						/>pandorah@gmail.com
+					  </li>
+					  <li>
+						<img src="../images/tel.png" width="16px" height="16px" />(011)
+						4467 - 2245
+					  </li>
+					</ul>
+				  </div>
+				  <div>
+					<h4 class="titulos">Encontranos</h4>
+					<ul class="texto">
+					  <li>
+						<img
+						  src="../images/tw.png"
+						  width="16px"
+						  height="16px"
+						/>@pandorahotelok
+					  </li>
+					  <li>
+						<img
+						  src="../images/insta.png"
+						  width="16px"
+						  height="16px"
+						/>pandorahotelok
+					  </li>
+					  <li>
+						<img src="../images/fb.png" width="16px" height="16px" />Pandora
+						Hotel & Resort
+					  </li>
+					</ul>
+				  </div>
+				  <div>
+					<h4 class="titulos">Medios de pago</h4>
+					<img src="../images/mp.png" width="30px" height="30px" />
+					<img src="../images/amex.png" width="30px" height="30px" />
+					<img src="../images/mc.png" width="30px" height="30px" />
+					<img src="../images/visa.png" width="30px" height="30px" />
+					<img src="../images/rp.png" width="30px" height="30px" />
+					<img src="../images/pf.png" width="30px" height="30px" />
+					<img src="../images/ts.png" width="30px" height="30px" />
+				  </div>
+				</div>
+				<p>Desarrollado Por Agustina Montoya</p>
+			  </footer>
 		</div>
-		<p>Desarrollado Por Agustina Montoya</p>
-	  </footer>
+	</section>
+	
+	  <!-- JavaScript Bundle with Popper -->
+	  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 </body>
 </html>

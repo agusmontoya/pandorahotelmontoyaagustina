@@ -72,6 +72,57 @@ h2{
     height: 400px;
 }
 
+div h4{
+    font-family: dmserif;
+    color: #7b876d;
+    font-weight: bold;
+}
+
+div p{
+    font-family: seriftexto;
+    color: #7b876d;
+}
+
+.formularioglamp{
+    background-color: rgb(219, 216, 216);
+    text-align: center;
+    font-family: seriftexto;
+  }
+
+  .botones {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 20px 0;
+    font-family: dmserif;
+    color: #7b876d;
+  }
+
+.divtexto h3{
+    font-family: dmserif;
+    color: #7b876d;
+    font-weight: bold;
+    text-align: center;
+}
+.divtexto p{
+    font-size: large;
+}
+.divdespensa h3{
+    font-family: dmserif;
+    color: #7b876d;
+    font-size: 30px;
+    margin: 60px;
+    text-align: center;
+}
+.divdespensa p{
+    font-family: seriftexto;
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+    margin: 10px;
+}
+
+
 footer {
     margin: 100px 0;
     padding: 100px;
