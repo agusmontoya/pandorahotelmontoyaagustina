@@ -1,327 +1,333 @@
 * {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  text-decoration: none;
-  box-sizing: border-box;
-}
-
-body {
-  background-color: white;
-}
-
-header {
-  background-color: #ddb8a6;
-  display: flex;
-  justify-content: space-between;
-  padding: 10px 25px;
-}
-
-.logo {
-  text-indent: -99999px;
-  width: 65px;
-  height: 65px;
-  background: url(../images/logo.png);
-  background-size: 65px;
-  background-position: center left;
-  background-repeat: no-repeat;
-  display: block;
-}
-
-nav {
-  display: flex;
-  align-items: center;
-}
-
-nav ul {
-  display: flex;
-  gap: 30px;
-}
-
-.menu a {
-  color: #989e8b;
-  font-weight: bold;
-  font-family: dmserif;
-}
-
-.seccion-titulo {
-  margin: 30px 0;
-  text-align: center;
-  font-family: dmserif;
-  color: #7b876d;
-}
-
-h2{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: white;
+  }
+  
+  header {
+    background-color: #ddb8a6;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 25px;
+  }
+  
+  .logo {
+    text-indent: -99999px;
+    width: 65px;
+    height: 65px;
+    background: url(../images/logo.png);
+    background-size: 65px;
+    background-position: center left;
+    background-repeat: no-repeat;
+    display: block;
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+  }
+  
+  nav ul {
+    display: flex;
+    gap: 30px;
+  }
+  
+  .menu a {
+    color: #989e8b;
+    font-weight: bold;
+    font-family: dmserif;
+  }
+  
+  .seccion-titulo {
+    margin: 30px 0;
+    text-align: center;
+    font-family: dmserif;
+    color: #7b876d;
+  }
+  
+  h2 {
     margin: 30px 0;
     text-align: center;
     font-family: dmserif;
     color: #7b876d;
   }
   .carrousel-interno {
-      display: flex;
-      width: 100%;
-      height: 600px;
-    }
-  
-  .imagencarrousel{
-      width: 100%;
-      object-fit: cover;
+    display: flex;
+    width: 100%;
+    height: 600px;
   }
   
-  .card{
-      background-color: #989e8b;
-      font-family: seriftexto;
-      display: flex;
+  .imagencarrousel {
+    width: 100%;
+    object-fit: cover;
+  }
+  .titulopropuestas {
+    margin-top: 10px;
+  }
+  section {
+    margin: 100px 0;
   }
   
-  .card h5{
-      font-family: dmserif;
-      font-weight: bold;
+  
+  .row.tarjetas {
+    gap: 25px 0;
+    justify-content: center;
+    margin: 0;
   }
   
-  .card a{
-      background-color: #7b876d;
-      border: #7b876d;
+  .tarjetas section {
+    margin: 0;
+    display: flex;
+    justify-content: center;
   }
   
-  .card img{
-      width: 300px;
-      height: 400px;
+  .card {
+    background-color: #989e8b;
+    font-family: seriftexto;
+    display: flex;
+    width: 400px;
   }
   
-  div h4{
-      font-family: dmserif;
-      color: #7b876d;
-      font-weight: bold;
+  .card h5 {
+    font-family: dmserif;
+    font-weight: bold;
   }
   
-  div p{
-      font-family: seriftexto;
-      color: #7b876d;
+  .card a {
+    background-color: #7b876d;
+    border: #7b876d;
   }
-
-.texto {
-  font-family: seriftexto;
-  font-size: 15px;
-}
-
-.contenedor {
-  margin: auto;
-  max-width: 1440px;
-  display: flex;
-  justify-content: space-around;
-  gap: 60px 0;
-}
-
-.quienes-somos {
-  margin: 100px 0;
-}
-
-.quienes-somos h2{
-  text-align: center;
-  font-family: dmserif;
-  font-size: 25px;
-  color: #7b876d;
-}
-.quienes-somos p{
-  margin-right: 10px;
-  text-align: right;
-  display: flex;
-  justify-content: center;
-  font-size: 20px;
-  font-family: seriftexto;
-  font-weight: bold;
-}
-
-.quienes-somos .contenedor {
-  margin: auto;
-  max-width: 1440px;
-  display: flex;
-  justify-content: space-between;
-  gap: 50px;
-}
-
-.caracteristicas h2{
-  text-align: center;
-  font-family: dmserif;
-  font-size: 25px;
-  color: #7b876d;
-}
-
-.caracteristicas .contenedor {
-  flex-flow: row-reverse;
-  text-align: left;
-  font-size: 20px;
-  font-family: seriftexto;
-  font-weight: bold;
-}
-
-.caracteristicas img{
-  width: 300px;
-}
-
-
-.quienes-somos img {
-  width: 300px;
-  margin: 20px
-}
-.habitaciones {
-  margin: 150px 0;
-  background-image: url(../images/backgroundnosotros.png);
-  background-size: cover;
-  height: 400px;
-}
-
-.listas-habitaciones {
-  width: 100%;
-  display: flex;
-  justify-content: flex-end;
-}
-
-.listas-div {
-  background-color: #989e8b;
-  width: 500px;
-  height: 450px;
-  display: flex;
-  flex-direction: column;
-  gap: 25px;
-  padding: 50px;
-  font-size: 25px;
-  position: relative;
-  right: 25px;
-  top: -25px;
-}
-
-.listas-div h3 {
-  text-align: center;
-  font-family: dmserif;
-  font-size: 25px;
-}
-
-.listas {
-  display: flex;
-  font-family: seriftexto;
-  color: white;
-  gap: 30px;
-  justify-content: center;
-}
-
-.img-habitaciones {
-  display: flex;
-  justify-content: space-evenly;
-}
-
-.img-habitaciones img {
-  width: 400px;
   
-}
-
-
-
-.servicioscontenedor{
-  margin: auto;
-  max-width: 1440px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  flex-direction: row;
-  gap: 60px 0;
-}
-.serviciositem{
-  width: 400px;
-  height: 700px;
-  overflow: hidden;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  padding: 20px;
-  font-family: seriftexto;
-  font-weight: bold;
-  background-color: white;
-}
-
-.serviciosimg{
-  width: 100%;
-  height: 350px;
-  object-fit: cover;
-  transition: all 0.5s;
-}
-.serviciosimg:hover{
-  padding: 20px;
-  opacity: 0.5;
-}
-
-
-.titulo-reservas{
-  margin: 30px 0;
-  text-align: center;
-  font-family: dmserif;
-  color: white;
-}
-.seccion-reservas{
-  background-image: url(../images/reserva.png);
-  background-repeat: no-repeat;
-  background-size: 100%;
+  .card img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+  }
   
-}
-.form-fiel{
-  margin: 0 auto;
-  padding: 10px;
-}
-.form-reservas {
-  margin: 0 auto;
-  width: 500px;
-  padding: 10px;
-  background-color: #ddb8a6;
-  border: solid 10px white;
-  border-radius: 10px;
-  font-family: seriftexto;
-  font-weight: bold;
-}
-
-.seccion-contacto{
-  background-image: url(../images/contactoimg1.png);
-  background-repeat: no-repeat;
-  background-size: 100%;
-}
-.titulocontacto{
-  margin: 30px 0;
-  text-align: center;
-  font-family: dmserif;
-  color: white;
-}
-.contenedor-form{
-  margin:0 auto;
-  background-color: #ddb8a6;
-  width: 300px;
-  height: 350px;
-  padding: 15px;
-  overflow: hidden;
-  border: solid white;
-  border-radius: 10px;
-  text-align: center;
-  font-family: seriftexto;
-  font-size: medium;
-  font-weight: bolder;
-}
-
-.botoncontacto{
-  width: 90px;
-  height: 35px;
-  color: #7b876d;
-  border-radius: 3px color #7b876d;
-  font-family: seriftexto;
-  color: black;
-
-}
-
-.formularioglamp{
+  div h4 {
+    font-family: dmserif;
+    color: #7b876d;
+    font-weight: bold;
+  }
+  
+  div p {
+    font-family: seriftexto;
+    color: #7b876d;
+  }
+  
+  .texto {
+    font-family: seriftexto;
+    font-size: 15px;
+  }
+  .section-quienes-somos {
+    margin: 30px;
+  }
+  
+  .div-quienes-somos h3 {
+    text-align: center;
+    font-family: dmserif;
+    font-size: 25px;
+    color: #7b876d;
+  }
+  
+  .div-quienes-somos p {
+    margin-right: 10px;
+    text-align: right;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-family: seriftexto;
+    font-weight: bold;
+    color: black;
+  }
+  .div-caracteristicas h3 {
+    text-align: center;
+    font-family: dmserif;
+    font-size: 25px;
+    color: #7b876d;
+  }
+  .lista-caracteristicas {
+    text-align: left;
+    font-size: 20px;
+    font-family: seriftexto;
+    font-weight: bold;
+    color: black;
+  }
+  .listas-div h3 {
+    text-align: center;
+    font-family: dmserif;
+    font-size: 25px;
+  }
+  
+  .habitaciones {
+    margin: 150px 0;
+    background-image: url(../images/backgroundnosotros.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+  }
+  .listas-habitaciones {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .listas-div {
+    background-color: #989e8b;
+    width: 500px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 50px;
+    font-size: 25px;
+    position: relative;
+    right: 25px;
+    top: -25px;
+  }
+  .listas {
+    display: flex;
+    font-family: seriftexto;
+    color: white;
+    gap: 30px;
+    justify-content: center;
+  }
+  
+  .img-habitaciones {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .img-habitaciones img {
+    width: 400px;
+  }
+  
+  .servicioscontenedor {
+    margin: auto;
+    max-width: 1440px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+    gap: 60px 0;
+  }
+  .serviciositem {
+    width: 400px;
+    height: 700px;
+    overflow: hidden;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    font-family: seriftexto;
+    font-weight: bold;
+    background-color: white;
+  }
+  
+  .serviciosimg {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    transition: all 0.5s;
+  }
+  .serviciosimg:hover {
+    padding: 20px;
+    opacity: 0.5;
+  }
+  
+  .titulo-reservas {
+    margin: 30px 0;
+    text-align: center;
+    font-family: dmserif;
+    color: white;
+  }
+  .seccion-reservas {
+    background-image: url(../images/reserva.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  .form-fiel {
+    margin: 0 auto;
+    padding: 10px;
+  }
+  .form-reservas {
+    margin: 0 auto;
+    width: 500px;
+    padding: 10px;
+    background-color: #ddb8a6;
+    border: solid 10px white;
+    border-radius: 10px;
+    font-family: seriftexto;
+    font-weight: bold;
+  }
+  
+  .seccion-contacto {
+    background-image: url(../images/contactoimg1.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  .titulocontacto {
+    margin: 30px 0;
+    text-align: center;
+    font-family: dmserif;
+    color: white;
+  }
+  .contenedor-form {
+    margin: 0 auto;
+    background-color: #ddb8a6;
+    width: 300px;
+    height: 350px;
+    padding: 15px;
+    overflow: hidden;
+    border: solid white;
+    border-radius: 10px;
+    text-align: center;
+    font-family: seriftexto;
+    font-size: medium;
+    font-weight: bolder;
+  }
+  
+  .botoncontacto {
+    width: 90px;
+    height: 35px;
+    color: #7b876d;
+    border-radius: 3px color #7b876d;
+    font-family: seriftexto;
+    color: black;
+  }
+  
+  .formularioglamp {
     background-color: rgb(219, 216, 216);
     text-align: center;
     font-family: seriftexto;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    gap: 15px;
   }
-
-.botones {
+  
+  .formularioglamp .fechas {
+    display: flex;
+  }
+  
+  .formularioglamp input {
+    border: none;
+  }
+  
+  #carrouselglamp {
+    height: 100%;
+  }
+  
+  .carrusel {
+    overflow: hidden;
+  }
+  
+  .botones {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -329,34 +335,37 @@ h2{
     font-family: dmserif;
     color: #7b876d;
   }
-
-.divtexto h3{
+  
+  .divtexto h3 {
     font-family: dmserif;
     color: #7b876d;
     font-weight: bold;
     text-align: center;
-}
-.divtexto p{
+  }
+  .divtexto p {
     font-size: large;
-}
-.divdespensa h3{
+  }
+  .divdespensa h3 {
     font-family: dmserif;
     color: #7b876d;
     font-size: 30px;
     margin: 60px;
     text-align: center;
-}
-.divdespensa p{
+  }
+  .divdespensa p {
     font-family: seriftexto;
     font-weight: bold;
     font-size: large;
     text-align: center;
     margin: 10px;
-}
-
-
-footer {
-    margin: 100px 0;
+  }
+  
+  .row.footer, .col.footer {
+    margin: 0;
+  }
+  
+  footer {
+    margin-top: 100px;
     padding: 100px;
     background-color: #ddb8a6;
   }
@@ -375,7 +384,7 @@ footer {
     gap: 15px;
     list-style: none;
   }
-
+  
   footer div h4 {
     color: #989e8b;
     font-family: dmserif;
@@ -385,43 +394,160 @@ footer {
     font-family: seriftexto;
     text-align: center;
   }
+  
+  footer > div {
+    display: flex;
+    width: 100%;
+    gap: 150px;
+    justify-content: center;
+  }
+  
+  .footer div ul {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  footer div h4 {
+    color: #989e8b;
+  }
+  footer > p {
+    margin-top: 50px;
+    font-family: seriftexto;
+    text-align: center;
+  }
+  
+  @font-face {
+    font-family: dmserif;
+    src: url(../fonts/DMSerifDisplay-Regular.ttf);
+  }
+  
+  @font-face {
+    font-family: seriftexto;
+    src: url(../fonts/IBMPlexSerif-Light.ttf);
+  }
+
+  @media screen and (min-width:320px) and (max-width:480px){
+    header{
+      align-items: center;
+    }
+    nav{
+      display: none;
+    }
+    .bx{
+      font-size: 35px;
+    }
+    .imgnosotros{
+      display: none;
+    }
+    .div-quienes-somos h3{
+      font-size: small;
+      text-align: center;
+    }
+    .div-quienes-somos p{
+      font-size: small;
+      text-align: justify;
+    }
+    .div-caracteristicas h3{
+      font-size: small;
+      text-align: center;
+    }
+    .lista-caracteristicas li{
+      font-size: small;
+      text-align: justify;
+    }
+    .listas-div{
+      width: 480px;
+      height: 400px;
+      
+    }
+    .listas-div h3{
+      font-size: medium;
+    }
+    .listas{
+      font-size: medium;
+    }
+    .habitaciones{
+      background-image: none;
+    }
+    .seccion-reservas{
+      background-image: none;
+    }
+    .seccion-reservas h2{
+      color: #7b876d;
+    }
+    .botones h3{
+      text-align: center;
+    }
+    .seccion-contacto{
+      background-image: none;
+    }
+    .titulocontacto{
+      color: #7b876d;
+    }
+
+    .footer{
+      max-width: 480px;
+      display: flex;
+    }
+    .divfooter{
+      flex-wrap: wrap;
+    }
+   
+    }
+  
 
 
-footer {
-  margin: 100px 0;
-  padding: 100px;
-  background-color: #ddb8a6;
+    
+@media screen and (min-width: 1200px){
+  .bx{
+    display: none;
+  }
 }
 
-footer > div {
-  display: flex;
-  width: 100%;
-  gap: 150px;
-  justify-content: center;
-}
+@media screen and (min-width: 768px) and (max-width:1024px){
+  .bx{
+    display: none;
+  }
+  .imgnosotros{
+    display: none;
+  }
+  .seccion-reservas h2{
+    color: #7b876d;
+  }
+  .seccion-reservas{
+    background-image: none;
+  }
 
-.footer div ul {
-  margin-top: 15px;
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-}
-footer div h4 {
-  color: #989e8b;
-}
-footer > p {
-  margin-top: 50px;
-  font-family: seriftexto;
-  text-align: center;
-}
+  .contenedor-formulariog h4{
+    text-align: center;
+  }
+  .contenedor-formulariog p{
+    text-align: center;
+  }
+  .formularioglamp{
+    width: 300px;
+  }
+  .seccion-contacto{
+    background-image: none;
 
-
-@font-face {
-  font-family: dmserif;
-  src: url(../fonts/DMSerifDisplay-Regular.ttf);
+  }
+  .seccion-contacto h1{
+    color: #7b876d;
+  }
+  .seccion-contacto h2{
+    color: #7b876d;
+  }
+  .footer{
+    max-width: 480px;
+    display: flex;
+  }
+  .divfooter{
+    flex-wrap: wrap;
+  }
+  
 }
+  
+  
 
-@font-face {
-  font-family: seriftexto;
-  src: url(../fonts/IBMPlexSerif-Light.ttf);
-}
+  
